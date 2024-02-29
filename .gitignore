@@ -1,0 +1,11 @@
+#todos los .class que haya dentro de cualquier profundidad  
+#Todo lo que contenga la carpeta node_modules dentro de 
+#src sin contar la carpeta misma.
+lavers/date-transformers/out/*.class
+lavers/json-parser/out/*.class
+#Todos los archivos acabados en lock.json del repositorio. 
+*.json
+#Todo lo que contenga la carpeta node_modules dentro de 
+#src sin contar la carpeta misma.
+!src
+!src/node_modules
